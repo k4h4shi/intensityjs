@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "intensityjs",
+  "version": "0.0.1",
+  "description": "A library for calculate Japanese scale intensity of earth quake.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k4h4shi/intensityjs.git"
+  },
+  "keywords": [
+    "intensity"
+  ],
+  "author": "Kotaro Takahashi <kotaro.t@k4h4shi.com> (http://k4h4shi.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/k4h4shi/intensityjs/issues"
+  },
+  "homepage": "https://github.com/k4h4shi/intensityjs#readme"
+}
