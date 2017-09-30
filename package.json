@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/k4h4shi/intensityjs/issues"
   },
-  "homepage": "https://github.com/k4h4shi/intensityjs#readme"
+  "homepage": "https://github.com/k4h4shi/intensityjs#readme",
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "gulp": "^3.9.1",
+    "mocha": "^3.5.3"
+  }
 }
