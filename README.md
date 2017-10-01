@@ -1,11 +1,11 @@
-# intensityjs
+# intensityjs　[![Build Status](https://travis-ci.org/k4h4shi/intensityjs.svg?branch=master)](https://travis-ci.org/k4h4shi/intensityjs)
 A library for calculate Japanese scale intensity of earth quake.
 
 ## Usage
 ```
 const intensityjs = require('intensityjs');
 
-const intensity = intensityjs.calc(
+const intensity = intensityjs.calc({
   rate: 0.01,
   data: {
     x: [
@@ -23,5 +23,5 @@ const intensity = intensityjs.calc(
   },
 });
 
-console.log(intensity);
+console.log(intensity); // => 1.7
 ```
