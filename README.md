@@ -5,11 +5,23 @@ A library for calculate Japanese scale intensity of earth quake.
 ```
 const intensityjs = require('intensityjs');
 
-const i = intensityjs.calc(0.01, {
-    x: [0, 1, 2],
-    y: [0, 1, 3],
-    z: [0, 1, 5]
+const intensity = intensityjs.calc(
+  rate: 0.01,
+  data: {
+    x: [
+      0, 1, 2, 3, 4, 0, 1, 2, 3, 4,
+      0, 1, 2, 3, 4, 0, 1, 2, 3, 4,
+      0, 1, 2, 3, 4, 0, 1, 2, 3, 4],
+    y: [
+      0, 1, 2, 3, 4, 0, 1, 2, 3, 4,
+      0, 1, 2, 3, 4, 0, 1, 2, 3, 4,
+      0, 1, 2, 3, 4, 0, 1, 2, 3, 4],
+    z: [
+      0, 1, 2, 3, 4, 0, 1, 2, 3, 4,
+      0, 1, 2, 3, 4, 0, 1, 2, 3, 4,
+      0, 1, 2, 3, 4, 0, 1, 2, 3, 4],
+  },
 });
 
-console.log(i);
+console.log(intensity);
 ```
