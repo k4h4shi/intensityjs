@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "intensityjs",
   "version": "0.0.1",
   "description": "A library for calculate Japanese scale intensity of earth quake.",
