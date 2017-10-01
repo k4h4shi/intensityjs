@@ -22,7 +22,12 @@
   "homepage": "https://github.com/k4h4shi/intensityjs#readme",
   "devDependencies": {
     "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.1",
+    "eslint-plugin-import": "^2.7.0",
     "gulp": "^3.9.1",
     "mocha": "^3.5.3"
+  },
+  "dependencies": {
+    "fftjs": "0.0.4"
   }
 }
