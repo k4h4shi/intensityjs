@@ -25,3 +25,9 @@ const intensity = intensityjs.calc({
 
 console.log(intensity); // => 1.7
 ```
+
+## License
+MIT
+
+## Author
+[Kotaro Takahashi@k4h4shi](https://twitter.com/k4h4shi)
